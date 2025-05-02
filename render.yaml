@@ -2,6 +2,6 @@ services:
   - type: web
     name: ecommerce-api
     env: node
+    nodeVersion: 18.18.0
     buildCommand: npm install
     startCommand: node index.js
-    nodeVersion: 18.18.0
